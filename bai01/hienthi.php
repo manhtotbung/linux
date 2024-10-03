@@ -24,8 +24,8 @@
         echo "<td>".$rows[2]."</td>";
         echo "<td>".$rows[3]."</td>";
         echo "<td>".$rows[4]."</td>";
-        echo "<td><a href ='sua.php'> sua </a></td>"; 
-        echo "<td><a href= 'xoa.php'> xoa </a></td>";
+        echo "<td>"."<a href= 'sua.php?id=".$rows[0]."'>sua</a>"."</td>";
+        echo "<td>"."<a href= 'xoa.php?id=".$rows[0]."'>xoa</a>"."</td>";
         echo "</tr>";
     } 
     echo "</table>";
